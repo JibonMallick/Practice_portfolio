@@ -1,6 +1,7 @@
 nav {
     display: flex;
     justify-content: space-between;
+    margin: 0px 200px;
 }
 
 .nav-title {
@@ -38,4 +39,24 @@ nav a {
     font-weight: 700;
     line-height: normal;
     padding: 15px 18px;
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner {
+    padding: 50px 50px 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hardie-photo {
+    width: 584px;
+    height: 676px;
+    flex-shrink: 0;
 }
