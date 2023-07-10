@@ -159,6 +159,7 @@ nav a {
 
 .summary {
     height: 100vh;
+    
 }
 .summary-box{
     display: flex;
@@ -179,6 +180,7 @@ nav a {
 }
 .summary-button{
     text-align: center;
+    padding-bottom: 18px;
 }
 .summary-button-style{
     background-color: #FD6E0A;
@@ -186,4 +188,33 @@ nav a {
     border-radius: 15px;
     border: none;
     color: white;
+}
+.last-page{
+    height: 100vh;
+    background: #FFF8F3;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-around
+   
+}
+.last-page-icon{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.form,input,textarea{
+    border: 0px;
+    gap: 5px;
+    display: block;
+    width: 100%;
+}
+.last-page-submit-button{
+    border: none;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    color: white;
+    padding: 3px;
 }
